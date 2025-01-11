@@ -2,7 +2,7 @@
 const AboutLayout = () => {
   return (
     <div>
-      
+      About
     </div>
   )
 }

@@ -1,8 +1,9 @@
+import HeroSection from "./hero-section"
 
 const LandingPageLayout = () => {
   return (
     <div>
-      Nicub
+      <HeroSection />
     </div>
   )
 }
