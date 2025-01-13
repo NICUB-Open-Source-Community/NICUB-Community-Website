@@ -1,12 +1,20 @@
-import { RouterProvider } from 'react-router-dom'
-import {router} from './routes'
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes";
+import Loader, { LoaderFunc } from "./utils/Loader";
 
 function App() {
+  const { loader } = LoaderFunc();
   return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  )
+    <>
+      {loader ? (
+        <Loader />
+      ) : (
+        <div className="tracking-tight">
+          <RouterProvider router={router} />
+        </div>
+      )}
+    </>
+  );
 }
 
-export default App
+export default App;

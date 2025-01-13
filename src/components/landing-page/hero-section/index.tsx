@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { JoinUs } from "../../navbar/Navbar";
+// import { JoinUs } from "../../navbar/Navbar";
 
 const HeroSection = () => {
   return (
@@ -32,7 +32,7 @@ const HeroSection = () => {
         transcribe, download, and more
       </p>
       {/* <Link to="/dashboard"> */}
-        <JoinUs />
+        {/* <JoinUs /> */}
       {/* </Link> */}
     </main>
   );
