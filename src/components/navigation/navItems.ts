@@ -6,21 +6,25 @@ export const navItems = [
         heading: "Open Source Resource",
         texts: "Learning Materials",
         icon: Resource,
+        link: ""
       },
       {
         heading: "Developers & Designers",
         texts: "Tools and Support",
         icon: Dev,
+        link: ""
       },
       {
         heading: "Projects",
         texts: "Access to Projects",
         icon: Resource,
+        link: "https://github.com/orgs/NICUB-Open-Source-Community/repositories"
       },
       {
         heading: "Technical Writers",
         texts: "Writing Standards",
         icon: Writers,
+        link: ""
       },
     ],
     community: [
@@ -28,11 +32,13 @@ export const navItems = [
         heading: "Community Guidelines",
         texts: "Code of Conduct",
         icon: Community,
+        link: ""
       },
       {
         heading: "Contributor Documentation",
         texts: "How to Contribute",
         icon: Docs,
+        link: ""
       },
     ],
     resourcesFooter: [{ texts: "Projects" }, { texts: "FAQs" },{texts: "Community"}],
