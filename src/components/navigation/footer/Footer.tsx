@@ -20,7 +20,7 @@ const Footer = () => {
           <h2 className="font-medium mb-4">Resources</h2>
           <div className="cursor-pointer">
             {resourcesFooter.map((resource, idx) => {
-              return <p key={idx}>{resource.texts}</p>;
+              return <p key={idx} className="hover:text-gray-900">{resource.texts}</p>;
             })}
           </div>
         </div>
@@ -28,18 +28,20 @@ const Footer = () => {
           <h2 className="font-medium mb-4">Industry</h2>
           <div className="cursor-pointer">
             {companyFooter.map((company, idx) => {
-              return <p key={idx}>{company.texts}</p>;
+              return <p key={idx} className="hover:text-gray-900">{company.texts}</p>;
             })}
           </div>
         </div>
         <div>
           <h2 className="font-medium mb-4">Get in touch</h2>
           <p className="mb-2">
-            <a href="">hello@company.com</a>
+            <a href="mailto:nicubhub@gmail.com" className="hover:text-gray-900">nicubhub@gmail.com</a>
           </p>
           <div className="text-[#D9432C]  flex items-center gap-x-3">
             <LinkedIn className="hover:text-gray-400" />
-            <GitHub className="hover:text-gray-400" />
+            <a href="https://github.com/NICUB-Open-Source-Community" target="_blank">
+              <GitHub className="hover:text-gray-400" />
+            </a>
             <Instagram className="hover:text-gray-400" />
           </div>
         </div>
