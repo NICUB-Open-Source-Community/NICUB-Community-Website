@@ -1,39 +1,38 @@
 import { Link } from "react-router-dom";
-// import { JoinUs } from "../../navbar/Navbar";
+import { JoinUs } from "../../navigation/navbar";
+import { ArrowRight, Community } from "../../../assets/svg";
 
 const HeroSection = () => {
   return (
-    <main className="py-20 sm:pb-52 bg-[url('/hero-bg.png')] bg-cover">
-      <div className="mb-6 flex items-center bg-gray-200 w-fit px-3 py-1 rounded-2xl text-sm hover:bg-gray-300 cursor-pointer">
-        <Link to="/dashboard">
-          <p>
-            Introducing noter's seamless transcription experience. Check it
-            out
-          </p>
-        </Link> 
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-        >
-          <path
-            className="text-gray-400"
-            fill="currentColor"
-            d="M16.175 13H4v-2h12.175l-5.6-5.6L12 4l8 8l-8 8l-1.425-1.4z"
-          />
-        </svg>
+    <main className="py-20 sm:pb-52 grid grid-cols-2 items-center">
+      <div>
+        <div className="mb-6 flex items-center bg-gray-200 w-fit px-3 py-1 rounded-2xl text-sm hover:bg-gray-300 cursor-pointer">
+          <Link to="/dashboard">
+            <p>
+              Introducing noter's seamless transcription experience. Check it
+              out
+            </p>
+          </Link>
+          <ArrowRight />
+        </div>
+        <h1 className="mb-6 text-5xl font-semibold">
+          Unlock the power of voice-to-text
+        </h1>
+        <p className="mb-6 text-gray-600 max-w-[450px] font-medium text-xl">
+          noter is an AI powered ultimate tool for transforming speech into
+          text. Record, transcribe, download, and more
+        </p>
+        <div className="mb-6">
+          <JoinUs classname="block" />
+        </div>
+        <div className="flex items-center gap-x-2">
+          <Community className="text-[#D9432C]" />
+          <p>$ 32.84 billion of liquidity currently supplied in Aave</p>
+        </div>
       </div>
-      <h1 className="mb-6 text-5xl font-semibold">
-        Unlock the power of voice-to-text
-      </h1>
-      <p className="mb-6 text-gray-600 max-w-[500px] font-medium text-xl">
-        noter is an AI powered ultimate tool for transforming speech into text. Record,
-        transcribe, download, and more
-      </p>
-      {/* <Link to="/dashboard"> */}
-        {/* <JoinUs /> */}
-      {/* </Link> */}
+      <div className="border-[9px] border-gray-300 rounded-xl">
+        <img src="./hero.gif" className="h-full w-full " alt="" />
+      </div>
     </main>
   );
 };

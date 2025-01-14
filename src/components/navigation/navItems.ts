@@ -1,4 +1,4 @@
-import { Community, Docs, Resource, Dev, Writers } from "../../../assets/svg";
+import { Community, Docs, Resource, Dev, Writers } from "../../assets/svg";
 export const navItems = [
   {
     resources: [
@@ -36,5 +36,6 @@ export const navItems = [
       },
     ],
     resourcesFooter: [{ texts: "Projects" }, { texts: "FAQs" },{texts: "Community"}],
+    companyFooter: [{ texts: "Privacy Policy" }, { texts: "Terms of Use" },{texts: "Contact"}],
   },
 ];

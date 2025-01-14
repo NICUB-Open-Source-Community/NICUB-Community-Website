@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
-import { navItems } from "./navItems";
-// import { useAppState } from "../../../utils/AppContext";
+import { navItems } from "../navItems";
 import SubNav from "./SubNav";
+import { ArrowRight } from "../../../assets/svg";
 
+interface ArrowRightProps {
+  classname: string;
+}
 const Navbar = () => {
-  // const { navItems } = useAppState();
   const { resources, community } = navItems[0];
-  const buttonStyles =
-    "bg-[#EE624D] text-white rounded-2xl py-1 px-4 cursor-pointer ";
   const hoverStyles =
     "hover:bg-gray-100 rounded-2xl py-1 sm:px-4  transition duration-100 cursor-pointer";
   return (
-    <nav className="flex justify-between items-center gap-0">
+    <nav className="flex justify-between items-center gap-0 px-4">
       <Link to="/">
         <img src="/logo.jpeg" alt="logo" className="w-[100px] h-[80px]" />
       </Link>
@@ -26,10 +26,18 @@ const Navbar = () => {
           <SubNav items={resources} />
         </div>
         <p className={hoverStyles}>Sponsor</p>
-        <p className={buttonStyles}>Join Us</p>
+        <JoinUs classname="hidden"/>
       </div>
     </nav>
   );
 };
 
 export default Navbar;
+export const JoinUs = ({ classname }: ArrowRightProps) => {
+  return (
+    <div className="w-fit bg-[#D9432C] text-white rounded-2xl py-1 px-4 cursor-pointer hover:bg-[#EE624D] transition duration-300 flex items-center gap-2">
+      <p> Join Us</p>
+      <ArrowRight className={classname} />
+    </div>
+  );
+};
