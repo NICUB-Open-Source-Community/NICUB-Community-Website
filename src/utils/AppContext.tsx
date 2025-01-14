@@ -1,4 +1,4 @@
-import {navItems} from "../components/navigation/navbar/navItems";
+import {navItems} from "../components/navigation/navItems";
 import {
   createContext,
   ReactNode,
