@@ -11,8 +11,8 @@ const Navbar = () => {
   const hoverStyles =
     "hover:bg-gray-100 rounded-2xl py-1 sm:px-4  transition duration-100 cursor-pointer";
   return (
-    <nav className="flex justify-between items-center gap-0 px-4">
-      <Link to="/">
+    <nav className="flex justify-between items-center gap-0 px-4 max-w-[1024px] mx-auto py-4">
+      <Link to="/"> 
         <img src="/logo.jpeg" alt="logo" className="w-[100px] h-[80px]" />
       </Link>
       <div className="flex items-center gap-1">
@@ -26,7 +26,7 @@ const Navbar = () => {
           <SubNav items={resources} />
         </div>
         <p className={hoverStyles}>Sponsor</p>
-        <JoinUs classname="hidden"/>
+        <JoinUs classname="hidden" />
       </div>
     </nav>
   );

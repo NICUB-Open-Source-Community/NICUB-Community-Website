@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import LandingPage from "../pages/landing-page/LandingPage";
 import NavbarLayout from "../components/navigation";
-import About from "../pages/about/About";
+import About from "../components/about/About";
 
 export const router = createBrowserRouter([
   {
