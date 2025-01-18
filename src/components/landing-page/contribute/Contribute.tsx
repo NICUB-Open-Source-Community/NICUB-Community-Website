@@ -10,7 +10,7 @@ const Contribute = () => {
         </h1>
         <p className="text-xl text-gray-600">Join hands to build together</p>
       </div>
-      <main className="grid grid-cols-3 relative gap-4 bg-[#F5F8FE] px-2 py-6">
+      <main className="grid grid-cols-3 relative gap-4 bg-[#F5F8FE] px-2 py-6 rounded-xl">
         <ContributeCard
           heading="Explore Projects"
           description="Discover projects that align with your interests and skills. Browse through our repositories"
