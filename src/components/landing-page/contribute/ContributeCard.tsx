@@ -14,7 +14,7 @@ const ContributeCard = ({
 }: ContributeProps) => {
   return (
       <div className="flex flex-col items-center text-center gap-4 group">
-        <p className="bg-[#EE624D] text-white p-1 px-2 text-xs rounded-xl group-hover:bg-[#D9432C]">
+        <p className="bg-[#3DBCE5] text-white p-1 px-2 text-xs rounded-xl group-hover:bg-[#01A7E1]">
           STEP {step}
         </p>
         <p className="font-medium text-xl">{heading}</p>
