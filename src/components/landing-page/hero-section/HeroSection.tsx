@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const HeroSection = () => {
   return (
-    <main className="py-20 bg-[url('/hero2.jpg')] bg-cover px-4 ">
+    <main className="py-20 bg-[url('/hero2.jpg')] bg-center  px-4 ">
       <div className="max-w-[1024px] mx-auto">
         <div className="mb-6 flex items-center bg-gray-200 w-fit px-3 py-1 rounded-2xl text-sm hover:bg-gray-300 cursor-pointer">
           <Link to="/dashboard">
