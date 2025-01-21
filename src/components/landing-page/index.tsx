@@ -1,4 +1,4 @@
-import AboutLayout from "../about/About"
+import AboutLayout from "./about/About"
 import Contribute from "./contribute/Contribute"
 import HeroSection from "./hero-section/HeroSection"
 
