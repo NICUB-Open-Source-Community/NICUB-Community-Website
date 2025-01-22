@@ -4,7 +4,8 @@ import SubNav from "./SubNav";
 import { ArrowRight } from "../../../assets/svg";
 
 interface ArrowRightProps {
-  classname: string;
+  classname?: string;
+  text: string;
 }
 const Navbar = () => {
   const { resources, community } = navItems[0];
@@ -27,7 +28,7 @@ const Navbar = () => {
             <SubNav items={resources} />
           </div>
           <p className={hoverStyles}>Sponsor</p>
-          <JoinUs classname="hidden" />
+          <JoinUs classname="hidden" text="Join Us" />
         </div>
       </nav>
     </section>
@@ -35,10 +36,10 @@ const Navbar = () => {
 };
 
 export default Navbar;
-export const JoinUs = ({ classname }: ArrowRightProps) => {
+export const JoinUs = ({ classname, text }: ArrowRightProps) => {
   return (
     <div className="w-fit bg-[#D9432C] text-white rounded-2xl py-1 px-4 cursor-pointer hover:bg-[#EE624D] transition duration-300 flex items-center gap-2">
-      <p> Join Us</p>
+      <p> {text} </p>
       <ArrowRight className={classname} />
     </div>
   );

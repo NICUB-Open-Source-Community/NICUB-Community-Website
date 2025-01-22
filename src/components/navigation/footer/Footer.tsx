@@ -3,8 +3,8 @@ import { navItems } from "../navItems";
 const Footer = () => {
   const { resourcesFooter, companyFooter } = navItems[0];
   return (
-    <footer className="bg-[#F7F6F6] px-4 py-8 text-gray-700 ">
-      <div className="max-w-[1024px] mx-auto grid grid-cols-2 items-center">
+    <footer className="bg-[#F7F6F6]  text-gray-700 ">
+      <div className="max-w-[1024px] mx-auto grid grid-cols-2 items-center px-4 py-8">
         <section>
           <img
             src="./bg-remove-logo.png"
