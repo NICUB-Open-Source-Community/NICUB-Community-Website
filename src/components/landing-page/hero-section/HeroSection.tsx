@@ -5,8 +5,8 @@ import { Typewriter } from "react-simple-typewriter";
 
 const HeroSection = () => {
   return (
-    <main className="py-20 bg-[url('/hero2.jpg')] bg-center  px-4 ">
-      <div className="max-w-[1024px] mx-auto">
+    <main className=" bg-[url('/git-image-bg.png')] bg-contain bg-no-repeat bg-right bg-gray-900">
+      <div className="max-w-[1024px] mx-auto px-4 py-20">
         <div className="mb-6 flex items-center bg-gray-200 w-fit px-3 py-1 rounded-2xl text-sm hover:bg-gray-300 cursor-pointer">
           <Link to="/dashboard">
             <p>Join the NICUB Community. Check it out</p>
@@ -31,14 +31,14 @@ const HeroSection = () => {
             />
           </span>
         </div>
-        <p className="mb-6 text-gray-400 max-w-[450px] text-xl">
+        <p className="mb-6 text-gray-300 max-w-[450px] text-xl">
           NICUB is your gateway to impactful open-source collaboration.
           Contribute, connect, and grow with a thriving global community
         </p>
         <div className="mb-6">
-          <JoinUs classname="block" />
+          <JoinUs classname="block" text="Join Us"/>
         </div>
-        <div className="flex items-center gap-x-2 text-gray-400">
+        <div className="flex items-center gap-x-2 text-gray-300">
           <Community className="text-[#01A7E1]" />
           <p>10,000+ contributors worldwide making an impact</p>
         </div>
