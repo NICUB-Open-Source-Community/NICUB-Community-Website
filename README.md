@@ -58,3 +58,10 @@ package.json            # List of all installed dependencies and technologies us
   npm run dev
 ```
 >>>>>>> 8adb62d (Feat: Project Setup and Structure)
+
+
+## License
+
+The documents in this repository are released under the MIT License. See [LICENSE](LICENSE) file.
+
+Copyright © NICUB Hub.
