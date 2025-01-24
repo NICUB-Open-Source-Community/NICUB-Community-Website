@@ -1,4 +1,4 @@
-import {navItems} from "../components/navigation/navItems";
+import { FaqItems } from "../components/landing-page/faq/faq";
 import {
   createContext,
   ReactNode,
@@ -7,24 +7,27 @@ import {
   useContext,
 } from "react";
 interface State {
-  navItems: typeof navItems;
+  openFaqs: boolean[];
 }
 interface Action {
   type: string;
-  payload?: string;
+  payload?: number | string;
 }
 type Dispatch = (action: Action) => void;
 interface AppProviderProps {
   children: ReactNode;
 }
-const initialState = {navItems:  navItems};
+const initialState = {openFaqs: FaqItems.map(()=>false)};
 const AppStateContext = createContext<State | undefined>(undefined);
 const AppDispathContext = createContext<Dispatch | undefined>(undefined);
 const AppReducer = (state: State, action: Action) => {
-  const { type } = action;
+  const { type,payload } = action;
   switch (type) {
-    case "SET_ACTIVE_NAV":
-      return { ...state, activeNavItem: "hala"};
+    case "TOGGLE_FAQ": {
+      const updatedFaqs = [...state.openFaqs]
+      updatedFaqs[payload as number] = !updatedFaqs[payload as number];
+      return { ...state, openFaqs: updatedFaqs};
+    }
     default:
       return state;
   }

@@ -36,4 +36,13 @@ export function Lema(props: SVGProps<SVGSVGElement>){
     return <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20" {...props}><path fill="currentColor" d="M3.33 8L10 12l10-6l-10-6L0 6h10v2zM0 8v8l2-2.22V9.2zm10 12l-5-3l-2-1.2v-6l7 4.2l7-4.2v6z"/></svg>
 }
 
+export function Books(props: SVGProps<SVGSVGElement>){
+    return <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36" {...props} > <path fill="currentColor" d="m33.48 29.63l-6.74-17.81a2 2 0 0 0-2.58-1.16L21 11.85V8.92A1.92 1.92 0 0 0 19.08 7H14V4.92A1.92 1.92 0 0 0 12.08 3H5a2 2 0 0 0-2 2v27a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V19.27l5 13.21a1 1 0 0 0 1.29.58l5.61-2.14a1 1 0 0 0 .58-1.29ZM12 8.83V31H5V5h7ZM19 31h-5V9h5Zm8.51-.25l-6.38-16.83l3.74-1.42l6.39 16.83Z" className="clr-i-outline clr-i-outline-path-1" /> <path fill="none" d="M0 0h36v36H0z" /> </svg>
+}
 
+export function AddSign(props: SVGProps<SVGSVGElement>){
+    return <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M11 21v-8H3v-2h8V3h2v8h8v2h-8v8z"/></svg>
+}
+export function MinusSign(props: SVGProps<SVGSVGElement>){
+    return<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M19 12.998H5v-2h14z"/></svg>
+}

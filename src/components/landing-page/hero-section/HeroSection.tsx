@@ -32,11 +32,12 @@ const HeroSection = () => {
           </span>
         </div>
         <p className="mb-6 text-gray-300 max-w-[450px] text-xl">
-          NICUB is your gateway to impactful open-source collaboration.
-          Contribute, connect, and grow with a thriving global community
+          NICUB is an open-source community dedicated to empowering beginners
+          and developers by equipping them with the skills they need to thrive
+          in the tech industry.
         </p>
         <div className="mb-6">
-          <JoinUs classname="block" text="Join Us"/>
+          <JoinUs classname="block" text="Join Us" />
         </div>
         <div className="flex items-center gap-x-2 text-gray-300">
           <Community className="text-[#01A7E1]" />

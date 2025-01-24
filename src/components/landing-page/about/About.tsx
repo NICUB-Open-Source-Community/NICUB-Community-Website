@@ -23,7 +23,7 @@ const About = () => {
             <div key={index}>
               <img
                 src={aboutCard.img}
-                className="w-[500px] h-[300px] rounded-lg"
+                className="w-[500px] h-[250px] rounded-lg"
                 alt="aboutimg"
               />
               <div className="flex items-center gap-4 my-4">

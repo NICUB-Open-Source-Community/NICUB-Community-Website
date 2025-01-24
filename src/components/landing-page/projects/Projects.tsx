@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="flex flex-col gap-3">
         <h1 className="text-[#01A7E1] font-medium text-2xl mb-4">Projects</h1>
         <p className="font-medium text-2xl max-w-[300px]">
-          Transform Your Vision Into Reality
+          Driving Innovation, One Solution at a Time
         </p>
         <p className="text-gray-600 mb-4 max-w-[400px]">
           Whether you're starting fresh or revamping an existing project, our
@@ -39,7 +39,9 @@ const Projects = () => {
                 </p>
               </div>
               <p
-                className={`text-gray-800 ${idx % 2 !== 0 ? "text-gray-200" : ""}`}
+                className={`${
+                  idx % 2 !== 0 ? "text-gray-200" : "text-gray-800"
+                }`}
               >
                 {item.description}
               </p>
