@@ -2,21 +2,21 @@ export const aboutCards = [
     {
       img: "./about-1.jpg",
       heading: "+20",
-      description: "Active Projects Across Communities",
+      description: "Empowered Members Learning & Innovating",
     },
   {
     img: "./about-2.jpg",
     heading: "25+",
-    description: "Empowered Open Source Initiatives",
+    description: "Global Open Source Projects Led",
   },
   {
     img: "./about-3.jpg",
     heading: "10M+",
-    description: "Lines of Code Contributed",
+    description: "Hours Dedicated to Mentorship",
   },
   {
     img: "./about-1.jpg",
     heading: "+20",
-    description: "Collaboration Across Global Networks",
+    description: "Partnerships Bridging Education & Industry",
   },
 ];
