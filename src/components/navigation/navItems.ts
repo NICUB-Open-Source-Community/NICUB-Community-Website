@@ -18,7 +18,8 @@ export const navItems = [
         heading: "Projects",
         texts: "Access to Projects",
         icon: Resource,
-        link: "https://github.com/orgs/NICUB-Open-Source-Community/repositories"
+        link: "projects"
+        // 
       },
       {
         heading: "Technical Writers",
