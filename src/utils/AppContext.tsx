@@ -1,4 +1,4 @@
-import { FaqItems } from "../components/landing-page/faq/faq";
+import { FaqItems } from "../components/landing-page/faq/faqItems"
 import {
   createContext,
   ReactNode,

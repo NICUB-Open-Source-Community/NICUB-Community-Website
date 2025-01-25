@@ -1,5 +1,5 @@
 import { ArrowRight } from "../../../assets/svg";
-import ContributeCard from "./ContributeCard";
+import ContributeCard from "./ContributeCard"
 
 const Contribute = () => {
   return (

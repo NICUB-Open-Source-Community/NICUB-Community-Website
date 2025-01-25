@@ -1,9 +1,13 @@
 import { JoinUs } from "../../navigation/navbar/Navbar";
 import { ProjectItems } from "./project";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   return (
-    <main className="py-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl">
+    <main
+      id="projects"
+      className="py-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
+    >
       <div className="flex flex-col gap-3">
         <h1 className="text-[#01A7E1] font-medium text-2xl mb-4">Projects</h1>
         <p className="font-medium text-2xl max-w-[300px]">
@@ -14,7 +18,9 @@ const Projects = () => {
           tools streamline the process, empowering creativity and
           collaboration.s.
         </p>
-        <JoinUs text="Discover More" />
+        <Link to="https://github.com/orgs/NICUB-Open-Source-Community/repositories">
+          <JoinUs text="Discover More" />
+        </Link>
       </div>
       <div className="flex flex-col gap-3">
         {ProjectItems.map((item, idx) => (

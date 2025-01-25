@@ -1,6 +1,6 @@
 import { AddSign, MinusSign } from "../../../assets/svg";
 import { useAppState, useAppDispatch } from "../../../utils/AppContext";
-import { FaqItems } from "./faq";
+import { FaqItems } from "./faqItems"
 
 const Faq = () => {
   const { openFaqs } = useAppState();
