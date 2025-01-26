@@ -5,7 +5,8 @@ import { ArrowRight } from "../../../assets/svg";
 import { NavLink } from "react-router-dom";
 
 interface ArrowRightProps {
-  classname: string;
+  classname?: string;
+  text:string;
 }
 const Navbar = () => {
   const { resources, community } = navItems[0];
@@ -28,18 +29,19 @@ const Navbar = () => {
           <SubNav items={community} />
         </div>
         <NavLink to="/events"><p className={hoverStyles}>Events</p></NavLink>
-        <JoinUs classname="hidden" />
+        <JoinUs classname="hidden" text="Contact Us" />
       </div>
     </nav>
   );
 };
 
+
 export default Navbar;
-export const JoinUs = ({ classname }: ArrowRightProps) => {
+export const JoinUs = ({ classname, text }: ArrowRightProps) => {
   return (
     <NavLink to="/contact-us">
           <div className="w-fit bg-[#D9432C] text-white rounded-2xl py-1 px-4 cursor-pointer hover:bg-[#EE624D] transition duration-300 flex items-center gap-2">
-                  <p> Contact Us</p>
+                  <p>{text}</p>
                   <ArrowRight className={classname} />
            </div>
     </NavLink>
