@@ -18,7 +18,7 @@ export const navItems = [
         heading: "Projects",
         texts: "Access to Projects",
         icon: Resource,
-        link: "projects"
+        link: "/projects"
         // 
       },
       {

@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <main
       id="projects"
-      className="py-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
+      className="py-20 mt-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
     >
       <div className="flex flex-col gap-3">
         <h1 className="text-[#01A7E1] font-medium text-2xl mb-4">Projects</h1>

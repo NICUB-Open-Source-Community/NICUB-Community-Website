@@ -1,4 +1,4 @@
-import AboutLayout from "./about/About"
+// import AboutLayout from "./about/About"
 import Contribute from "./contribute/Contribute"
 import JoinCommunity from "./contribute/JoinCommunity"
 import Faq from "./faq/Faq"
@@ -9,7 +9,7 @@ const LandingPageLayout = () => {
   return (
     <div>
       <HeroSection />
-      <AboutLayout />
+      {/* <AboutLayout /> */}
       <Projects />
       <Contribute />
       <JoinCommunity />

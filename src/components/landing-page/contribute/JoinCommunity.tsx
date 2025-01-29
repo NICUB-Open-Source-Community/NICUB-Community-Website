@@ -3,7 +3,7 @@ import { JoinUs } from "../../navigation/navbar/Navbar";
 
 const JoinCommunity = () => {
   return (
-    <div className="max-w-[1024px] mx-auto p-4 py-8 bg-[url('/bg-section-1.webp')] rounded-xl">
+    <div className="max-w-[1024px] mx-auto p-4 py-8 bg-[#1F2937] rounded-xl">
       <div className="px-10 w-full flex justify-between items-center ">
         <div className="flex items-center gap-6 ">
           <div className="bg-[#28B79A] text-white rounded-full p-5">

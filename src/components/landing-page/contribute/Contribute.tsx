@@ -10,23 +10,20 @@ const Contribute = () => {
         </h1>
         <p className="text-xl text-gray-600">Join hands to build together</p>
       </div>
-      <main className="grid grid-cols-3 relative gap-4 bg-[#F5F8FE] px-2 py-6 rounded-xl">
+      <main className="grid grid-cols-3 relative gap-4 bg-[#F5F8FE] px-2 py-10 rounded-xl">
         <ContributeCard
-          heading="Explore Projects"
-          description="Discover projects that align with your interests and skills. Browse through our repositories"
-          step={1}
+          heading="Beginner Tutorials"
+          description="Start your journey with beginner-friendly guides. Learn the fundamentals and build confidence step by step"
           linkText="Start Exploring"
         />
         <ContributeCard
-          heading="Pick an Issue"
-          description="Choose a task or issue marked for contributors. Focus on “good first issues” to get started easily"
-          step={2}
+          heading="Open Source Resource"
+          description="Explore valuable tools, frameworks, and documentation to support your contributions and development process"
           linkText="View Issues"
         />
         <ContributeCard
-          heading="Submit a Pull Request"
-          description="Make your contribution by submitting a pull request. Share your improvements or solutions for review"
-          step={3}
+          heading="Project Based Learning"
+          description="Gain hands-on experience by working on real-world projects. Build, collaborate, and grow your skills"
           linkText="Contribute Now"
         />
         {/* <p className="absolute p-3 rounded-full w-fit bg-gray-500 top-[50%] left-[30%]">
@@ -42,7 +39,7 @@ const Contribute = () => {
 export default Contribute;
 export const RightArrow = ({position}:{position:string}) => {
   return (
-    <p className={`absolute p-2 rounded-full w-fit bg-[#72D4F0] ${position}`}>
+    <p className={`absolute p-2 rounded-full w-fit bg-[#3DBCE5] ${position}`}>
       <ArrowRight className="text-white" />
     </p>
   );

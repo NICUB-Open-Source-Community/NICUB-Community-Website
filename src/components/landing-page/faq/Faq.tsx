@@ -14,19 +14,19 @@ const Faq = () => {
           {FaqItems.map((item, idx) => (
             <div
               key={idx}
-              className="bg-[#FCFCFC] p-6  rounded-xl cursor-pointer"
+              className="bg-[#FCFCFC] p-5  rounded-xl cursor-pointer"
               onClick={() => dispatch({ type: "TOGGLE_FAQ",payload: idx })}
             >
               <div className="flex justify-between mb-4 relative">
-                <p className="text-xl">{item.question}</p>
+                <p className="text-lg">{item.question}</p>
                 <div className="transition-all duration-300 ease-in">
                   <AddSign
-                    className={`text-[#01A7E1] text-3xl absolute right-2 ${
+                    className={`text-[#01A7E1] text-2xl absolute right-2 ${
                       openFaqs[idx] ? "opacity-0" : "opacity-100"
                     }`}
                   />
                   <MinusSign
-                    className={`text-[#01A7E1] text-3xl absolute right-2 ${
+                    className={`text-[#01A7E1] text-2xl absolute right-2 ${
                       openFaqs[idx] ? "opacity-100" : "opacity-0"
                     }`}
                   />
