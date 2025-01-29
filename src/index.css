@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.scroll-bar {
+  overflow: auto; /* Add the ability to scroll */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-bar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
