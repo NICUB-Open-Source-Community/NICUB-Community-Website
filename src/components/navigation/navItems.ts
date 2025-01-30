@@ -15,13 +15,6 @@ export const navItems = [
         link: ""
       },
       {
-        heading: "Projects",
-        texts: "Access to Projects",
-        icon: Resource,
-        link: "/projects"
-        // 
-      },
-      {
         heading: "Technical Writers",
         texts: "Writing Standards",
         icon: Writers,

@@ -24,7 +24,7 @@ const Contribute = () => {
         <ContributeCard
           heading="Project Based Learning"
           description="Gain hands-on experience by working on real-world projects. Build, collaborate, and grow your skills"
-          linkText="Contribute Now"
+          linkText="Contribute Now" 
         />
         {/* <p className="absolute p-3 rounded-full w-fit bg-gray-500 top-[50%] left-[30%]">
           <ArrowRight className="text-white" />
