@@ -5,8 +5,8 @@ const Sponsor = () => {
     <>
       <JoinCommunityCard
         text="SPONSOR"
-        heading="Sponsor Open Source"
-        buttonText="Sponsor Us"
+        heading="Support Open Source"
+        buttonText="Become a Sponsor"
         bgColor="#F5F8FE"
       />
     </>
