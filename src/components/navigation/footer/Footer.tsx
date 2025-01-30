@@ -3,7 +3,7 @@ import { navItems } from "../navItems";
 const Footer = () => {
   const { resourcesFooter, companyFooter } = navItems[0];
   return (
-    <footer className="bg-[#F7F6F6]  text-gray-700 ">
+    <footer className="bg-[#F7F6F6]  text-gray-700 mt-14">
       <div className="max-w-[1024px] mx-auto grid grid-cols-2 items-center px-4 py-8">
         <section>
           <img
