@@ -19,6 +19,9 @@ const Navbar = () => {
           <img src="/logo.jpeg" alt="logo" className="w-[100px] h-[80px]" />
         </Link>
         <div className="flex items-center gap-1">
+         <NavLink to="/">
+            <p className={hoverStyles}>Home</p>
+          </NavLink>
           <NavLink to="/about">
             <p className={hoverStyles}>About Us</p>
           </NavLink>
