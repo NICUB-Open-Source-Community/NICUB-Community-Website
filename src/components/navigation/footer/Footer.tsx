@@ -43,14 +43,14 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="font-medium mb-4">Get in touch</h2>
-            <p className="mb-2">
+            {/* <p className="mb-2">
               <a
                 href="mailto:nicubhub@gmail.com"
                 className="hover:text-gray-900"
               >
                 nicubhub@gmail.com
               </a>
-            </p>
+            </p> */}
             <div className="text-[#D9432C]  flex items-center gap-x-3">
               <LinkedIn className="hover:text-gray-400" />
               <a
