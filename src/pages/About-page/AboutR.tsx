@@ -1,3 +1,4 @@
+import Faq from "../../components/landing-page/faq/Faq"
 
 const AboutUs = () => {
   return (
@@ -116,6 +117,7 @@ const AboutUs = () => {
                   </div>
         </div>
       </div>
+      <Faq />
       </div>
 
   )
