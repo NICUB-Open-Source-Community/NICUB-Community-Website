@@ -1,9 +1,9 @@
 export const aboutCards = [
-    {
-      img: "./about-1.jpg",
-      heading: "+20",
-      description: "Empowered Members Learning & Innovating",
-    },
+  {
+    img: "./about-1.jpg",
+    heading: "+20",
+    description: "Empowered Members Learning & Innovating",
+  },
   {
     img: "./about-2.jpg",
     heading: "25+",
@@ -16,7 +16,7 @@ export const aboutCards = [
   },
   {
     img: "./about-1.jpg",
-    heading: "+20",
-    description: "Partnerships Bridging Education & Industry",
+    heading: "+1000",
+    description: "Collaborations Connecting Learning & Innovation",
   },
 ];

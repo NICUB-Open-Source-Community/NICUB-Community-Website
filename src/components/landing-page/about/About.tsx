@@ -6,13 +6,23 @@ const About = () => {
       <main className="relative pt-20">
         <div className="absolute top-[20%]">
           <h2 className="text-[#D9432C] text-5xl font-medium mb-4">
-              NICUB AT A GLANCE
+            NICUB AT A GLANCE
           </h2>
-          <p className="text-lg max-w-[400px] text-gray-600">
-            NICUB drives open source innovation, enabling impactful
-            collaborations and fostering a thriving global community of
-            contributors.
-          </p>
+          <div className="flex flex-col gap-8">
+            <p className="text-lg max-w-[400px] text-gray-600">
+              NICUB drives open source innovation, enabling impactful
+              collaborations and fostering a thriving global community of
+              contributors.
+            </p>
+            <p className="text-lg max-w-[400px] text-gray-600">
+              We envision a world where technology is accessible to everyone,
+              and collaboration drives innovation. NICUB strives to: Cultivate a
+              global network of developers passionate about open source. Lead
+              the way in bridging the gap between education and industry
+              needs.Create inclusivity, ensuring equal opportunities for
+              individuals from diverse backgrounds to succeed in tech
+            </p>
+          </div>
         </div>
         <div className="flex items-end flex-col gap-6 h-[45rem] scroll-bar">
           {aboutCards.map((aboutCard, index) => (
