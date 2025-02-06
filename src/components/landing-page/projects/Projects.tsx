@@ -6,14 +6,14 @@ const Projects = () => {
   return (
     <main
       id="projects"
-      className="py-20 mt-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl bg-gradient-to-r from-[#3DBCE5] to-[#1F2937]"
+      className="py-20 mt-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
     >
       <div className="flex flex-col gap-3">
-        <h1 className="text-[#01A7E1  text-[#1F2937] font-medium text-2xl mb-4">Projects</h1>
-        <p className="font-medium text-2xl max-w-[300px] text-white">
+        <h1 className="text-[#01A7E1] font-medium text-2xl mb-4">Projects</h1>
+        <p className="font-medium text-2xl max-w-[300px]">
           Driving Innovation, One Solution at a Time
         </p>
-        <p className="text-gray-900 mb-4 max-w-[400px]">
+        <p className="text-gray-600 mb-4 max-w-[400px]">
           Whether you're starting fresh or revamping an existing project, our
           tools streamline the process, empowering creativity and
           collaboration.s.
