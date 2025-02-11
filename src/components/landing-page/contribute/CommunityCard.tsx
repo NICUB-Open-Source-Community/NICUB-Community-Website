@@ -11,7 +11,7 @@ const JoinCommunityCard = ({
 }: JoinCommunityProps) => {
   return (
     <div
-      className="max-w-[1024px] mx-auto p-4 py-8 rounded-xl bg-gradient-to-r from-[#3DBCE5] to-[#1F2937]"
+      className="max-w-[1024px] mx-auto p-4 py-8 rounded-xl bg-gradient-to-l from-[#3DBCE5] to-[#1F2937]"
       style={{ background: bgColor }}
     >
       <div className="px-10 w-full flex justify-between items-center ">
@@ -21,7 +21,7 @@ const JoinCommunityCard = ({
           </div>
           {/* <img src="./logo.jpeg" alt="" className="rounded-full w-40"/> */}
           <div className="font-semibold">
-            <p className="text-gray-700 font-semibold text-sm tracking-wider">
+            <p className="text-gray-300 font-semibold text-sm tracking-wider">
               {/* JOIN THE COMMUNITY */}
               {text}
             </p>
