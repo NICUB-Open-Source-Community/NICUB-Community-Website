@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 const HeroSection = () => {
   return (
     <main className=" bg-[url('/git-image-bg.png')] bg-contain bg-no-repeat bg-right bg-gray-900">
-      <div className="max-w-[1024px] mx-auto px-4 py-20">
+      <div className="max-w-[1280px] mx-auto px-8 py-20">
         <div className="mb-6 flex items-center bg-gray-200 w-fit px-3 py-1 rounded-2xl text-sm hover:bg-gray-300 cursor-pointer">
           <Link to="/dashboard">
             <p>Join the NICUB Community. Check it out</p>

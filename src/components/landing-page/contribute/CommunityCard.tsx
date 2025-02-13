@@ -11,7 +11,7 @@ const JoinCommunityCard = ({
 }: JoinCommunityProps) => {
   return (
     <div
-      className="max-w-[1024px] mx-auto p-4 py-8 rounded-xl bg-gradient-to-l from-[#3DBCE5] to-[#1F2937]"
+      className="max-w-[1280px] mx-auto p-8 mx-8 rounded-xl bg-gradient-to-l from-[#3DBCE5] to-[#1F2937]"
       style={{ background: bgColor }}
     >
       <div className="px-10 w-full flex justify-between items-center ">
