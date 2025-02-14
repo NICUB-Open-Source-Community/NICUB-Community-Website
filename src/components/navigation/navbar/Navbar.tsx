@@ -35,9 +35,7 @@ const Navbar = () => {
             <p className={hoverStyles}>Projects</p>
           </NavLink>
           <div className="relative group">
-            <NavLink to="/community">
               <p className={hoverStyles}>Community</p>
-            </NavLink>
             <SubNav items={community} />
           </div>
           <NavLink to="/events">
