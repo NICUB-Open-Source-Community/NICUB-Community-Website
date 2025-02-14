@@ -26,7 +26,7 @@ const SubNav = ({ items }: SubItemProps) => {
               className="flex items-center gap-2 hover:bg-gray-100 hover:duration-200 hover:transition p-3 rounded-lg cursor-pointer"
               key={idx}
             >
-              <div className="border border-[1.5px] p-1 rounded-md text-3xl">
+              <div className=" border-[1.5px] p-1 rounded-md text-3xl">
                 <item.icon />
               </div>
               <div className="leading-[1.3]">
