@@ -26,13 +26,13 @@ export const navItems = [
         heading: "Community Guidelines",
         texts: "Code of Conduct",
         icon: Community,
-        link: ""
+        link: "/community#guideline"
       },
       {
         heading: "Contributor Documentation",
         texts: "How to Contribute",
         icon: Docs,
-        link: ""
+        link: "/community#contributor"
       },
     ],
     resourcesFooter: [{ texts: "Projects" }, { texts: "FAQs" },{texts: "Community"}],

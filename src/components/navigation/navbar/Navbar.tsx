@@ -14,7 +14,7 @@ const Navbar = () => {
     "hover:bg-gray-100 rounded-2xl py-1 sm:px-4  transition duration-100 cursor-pointer";
   return (
     <section className="bg-white fixed top-0 w-full border-b z-30">
-      <nav className="flex justify-between items-center gap-0 px-4 max-w-[1024px] mx-auto py-4">
+      <nav className="flex justify-between items-center gap-0 px-8 max-w-[1280px] mx-auto py-4">
         <Link to="/">
           <img src="/logo.jpeg" alt="logo" className="w-[100px] h-[80px]" />
         </Link>
@@ -35,9 +35,7 @@ const Navbar = () => {
             <p className={hoverStyles}>Projects</p>
           </NavLink>
           <div className="relative group">
-            <NavLink to="/community">
               <p className={hoverStyles}>Community</p>
-            </NavLink>
             <SubNav items={community} />
           </div>
           <NavLink to="/events">

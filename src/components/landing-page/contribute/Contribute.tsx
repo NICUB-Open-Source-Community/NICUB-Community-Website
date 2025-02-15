@@ -3,7 +3,11 @@ import ContributeCard from "./ContributeCard"
 
 const Contribute = () => {
   return (
-    <div className="px4 py-20 max-w-[1024px] mx-auto">
+
+    <div className="px-8 py-20 max-w-[1280px] mx-auto">
+
+  {/* </div>  <div className="px4 py-20 max-w-[1024px] mx-auto">  */}
+
       <main className="grid grid-cols-3 relative gap-4 bg-[#F5F8FE] px-2 py-10 rounded-xl">
         <ContributeCard
           heading="Beginner Tutorials"

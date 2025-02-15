@@ -2,7 +2,7 @@ import { aboutCards } from "./aboutUs";
 
 const About = () => {
   return (
-    <div className="py-20 pt-10 max-w-[1024px] mx-auto border-b px-4">
+    <div className="py-20 pt-10 max-w-[1280px] mx-auto border-b px-8 bg-[#F5F8FE]">
       <main className="relative pt-20">
         <div className="absolute top-[20%]">
           <h2 className="text-[#D9432C] text-5xl font-medium mb-4">

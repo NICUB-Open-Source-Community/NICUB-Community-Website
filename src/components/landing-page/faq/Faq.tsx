@@ -7,7 +7,7 @@ const Faq = () => {
   const dispatch = useAppDispatch();
 
   return (
-    <section className="max-w-[1024px] mx-auto py-20">
+    <section className="max-w-[1280px] mx-auto py-20 px-8">
       <div className="grid grid-cols-3">
         <h2 className="text-5xl font-medium text-[#01A7E1]">FAQs</h2>
         <div className="col-span-2 flex flex-col gap-4">
