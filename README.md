@@ -64,4 +64,4 @@ package.json            # List of all installed dependencies and technologies us
 
 The documents in this repository are released under the MIT License. See [LICENSE](LICENSE) file.
 
-Copyright © NICUB Hub.
+Copyright © NICUB Hub. All rights reserved.
