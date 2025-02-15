@@ -6,19 +6,25 @@ export const navItems = [
         heading: "Open Source Resource",
         texts: "Learning Materials",
         icon: Resource,
-        link: ""
+        link: "/resources#open"
       },
       {
-        heading: "Developers & Designers",
+        heading: "Developers",
         texts: "Tools and Support",
         icon: Dev,
-        link: ""
+        link: "/resources#developer"
+      },
+      {
+        heading: " Designers",
+        texts: "Tools and Support",
+        icon: Dev,
+        link: "/resources#designer"
       },
       {
         heading: "Technical Writers",
         texts: "Writing Standards",
         icon: Writers,
-        link: ""
+        link: "/resources#writer"
       },
     ],
     community: [
