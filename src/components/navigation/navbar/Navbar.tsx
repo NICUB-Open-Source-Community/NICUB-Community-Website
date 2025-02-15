@@ -26,9 +26,7 @@ const Navbar = () => {
             <p className={hoverStyles}>About Us</p>
           </NavLink>
           <div className="relative group">
-            <NavLink to="/resources">
               <p className={hoverStyles}>Resources</p>
-            </NavLink>
             <SubNav items={resources} />
           </div>
           <NavLink to="/projects">
