@@ -8,7 +8,7 @@ const Contribute = () => {
 
   {/* </div>  <div className="px4 py-20 max-w-[1024px] mx-auto">  */}
 
-      <main className="grid grid-cols-3 relative gap-4 bg-[#F5F8FE] px-2 py-10 rounded-xl">
+      <main className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:p-4 ">
         <ContributeCard
           heading="Beginner Tutorials"
           description="Start your journey with beginner-friendly guides. Learn the fundamentals and build confidence step by step"
