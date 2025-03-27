@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  overflow-x: hidden;
+}
 * {
   font-family: "Roboto", serif;
   font-style: normal;

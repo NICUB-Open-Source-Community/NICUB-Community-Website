@@ -2,9 +2,9 @@ import { aboutCards } from "./aboutUs";
 
 const About = () => {
   return (
-    <div className="py-20 pt-10 max-w-[1280px] mx-auto border-b px-8 bg-[#F5F8FE]">
-      <main className="relative pt-20">
-        <div className="absolute top-[20%]">
+    <div className="py-20 pt-10 max-w-[1280px] mx-auto border-b bg-[#F5F8FE] rounded-xl">
+      <main className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:p-4 place-items-center">
+        <div className="" >
           <h2 className="text-[#D9432C] text-5xl font-medium mb-4">
             NICUB AT A GLANCE
           </h2>
@@ -24,7 +24,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-end flex-col gap-6 h-[45rem] scroll-bar">
+        <div className="flex items-end flex-col gap-6 h-[25rem] scroll-bar sm:w-full">
           {aboutCards.map((aboutCard, index) => (
             <div key={index}>
               <img
