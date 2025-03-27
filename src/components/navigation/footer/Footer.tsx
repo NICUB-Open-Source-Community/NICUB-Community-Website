@@ -4,8 +4,11 @@ const Footer = () => {
   const { resourcesFooter, companyFooter } = navItems[0];
   return (
     <footer className="bg-[#F7F6F6]  text-gray-700 mt-14">
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-4 items-center">
         <div>
+
+
           <img
             src="./logo_v2.jpeg"
             // src="./bg-remove-logo.png"
