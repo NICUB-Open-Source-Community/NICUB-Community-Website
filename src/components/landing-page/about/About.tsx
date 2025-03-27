@@ -2,7 +2,7 @@ import { aboutCards } from "./aboutUs";
 
 const About = () => {
   return (
-    <div className="py-20 pt-10 max-w-[1280px] mx-auto border-b bg-[#F5F8FE]">
+    <div className="py-20 pt-10 max-w-[1280px] mx-auto border-b bg-[#F5F8FE] rounded-xl">
       <main className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:p-4 place-items-center">
         <div className="" >
           <h2 className="text-[#D9432C] text-5xl font-medium mb-4">

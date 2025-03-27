@@ -20,11 +20,11 @@ const Navbar = () => {
         </Link>
         <button className="block sm:hidden">☰ Menu</button>
       </nav>
-      <nav className="flex justify-between items-center gap-0 px-8 max-w-[1280px] mx-auto py-4 hidden sm:block">
-        <Link to="/">
+      <nav className="flex items-center gap-0 px-8 max-w-[1280px] mx-auto py-4 hidden sm:block">
+        <div className="flex items-center justify-between gap-1">
+        <Link to="/" className="lg:pr-40 xl:pr-60">
           <img src="/logo_v2.jpeg" alt="logo" className="w-[100px] h-[80px]" />
         </Link>
-        <div className="flex items-center gap-1">
          <NavLink to="/">
             <p className={hoverStyles}>Home</p>
           </NavLink>
