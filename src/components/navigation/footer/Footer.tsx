@@ -4,8 +4,8 @@ const Footer = () => {
   const { resourcesFooter, companyFooter } = navItems[0];
   return (
     <footer className="bg-[#F7F6F6]  text-gray-700 mt-14">
-      <div className="max-w-[1280px] mx-auto grid grid-cols-2 items-center px-8 py-8">
-        <section>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 p-4 items-center">
+        <div>
           <img
             src="./logo_v2.jpeg"
             // src="./bg-remove-logo.png"
@@ -16,8 +16,8 @@ const Footer = () => {
             Our beautiful designs open the door to a realm of limitless
             possibilities, where imagination knows no bounds
           </p>
-        </section>
-        <section className="grid grid-cols-3">
+        </div>
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 items-center">
           <div>
             <h2 className="font-medium mb-4">Resources</h2>
             <div className="cursor-pointer">
