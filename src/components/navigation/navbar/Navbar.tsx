@@ -14,9 +14,15 @@ const Navbar = () => {
     "hover:bg-gray-100 rounded-2xl py-1 sm:px-4  transition duration-100 cursor-pointer";
   return (
     <section className="bg-white fixed top-0 w-full border-b z-30">
-      <nav className="flex justify-between items-center gap-0 px-8 max-w-[1280px] mx-auto py-4">
+      <nav className="flex justify-between items-center gap-0 px-8  mx-auto py-4 block sm:hidden">
         <Link to="/">
-          <img src="/logo.jpeg" alt="logo" className="w-[100px] h-[80px]" />
+          <img src="/logo_v2.jpeg" alt="logo" className="w-[100px] h-[80px]" />
+        </Link>
+        <button className="block sm:hidden">☰ Menu</button>
+      </nav>
+      <nav className="flex justify-between items-center gap-0 px-8 max-w-[1280px] mx-auto py-4 hidden sm:block">
+        <Link to="/">
+          <img src="/logo_v2.jpeg" alt="logo" className="w-[100px] h-[80px]" />
         </Link>
         <div className="flex items-center gap-1">
          <NavLink to="/">

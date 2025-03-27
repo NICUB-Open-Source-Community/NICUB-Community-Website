@@ -7,7 +7,7 @@ const Projects = () => {
     <main
       id="projects"
 
-      className="py-20 mt-20 max-w-[1280px] px-8 mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
+      className="grid grid-cols-1 md:grid-cols-2 gap-6 p-4 place-items-center py-20 mt-20 max-w-[1280px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
 
       // className="py-20 mt-20 max-w-[1024px] mx-auto border-b bg-[#F5F8FE] px-6 grid grid-cols-2 gap-3 rounded-xl"
 >

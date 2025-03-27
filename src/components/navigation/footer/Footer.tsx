@@ -7,8 +7,9 @@ const Footer = () => {
       <div className="max-w-[1280px] mx-auto grid grid-cols-2 items-center px-8 py-8">
         <section>
           <img
-            src="./bg-remove-logo.png"
-            className="w-[70px] h-[70px] mb-4"
+            src="./logo_v2.jpeg"
+            // src="./bg-remove-logo.png"
+             className="w-[70px] h-[70px] mb-4"
             alt="Logo"
           />
           <p className="max-w-[350px]">
