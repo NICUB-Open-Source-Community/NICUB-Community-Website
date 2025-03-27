@@ -13,7 +13,7 @@ const HeroSection = () => {
           </Link>
           <ArrowRight />
         </div>
-        <div className="mb-6 text-5xl font-semibold h-[90px] text-[#01A7E1]">
+        <div className="mb-6 text-3xl sm:text-5xl font-semibold h-[90px] text-[#01A7E1]">
           Discover{" "}
           <span className="text-[#D9432C]">
             <Typewriter
