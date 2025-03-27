@@ -9,7 +9,7 @@ function App() {
       {loader ? (
         <Loader />
       ) : (
-        <div className="tracking-tight">
+        <div className="tracking-tight w-full">
           <RouterProvider router={router} />
         </div>
       )}

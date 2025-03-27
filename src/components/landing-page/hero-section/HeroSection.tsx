@@ -13,7 +13,7 @@ const HeroSection = () => {
           </Link>
           <ArrowRight />
         </div>
-        <div className="mb-6 text-5xl font-semibold h-[90px] text-[#01A7E1]">
+        <div className="mb-6 text-3xl sm:text-5xl font-semibold h-[90px] text-[#01A7E1]">
           Discover{" "}
           <span className="text-[#D9432C]">
             <Typewriter
@@ -31,7 +31,7 @@ const HeroSection = () => {
             />
           </span>
         </div>
-        <p className="mb-6 text-gray-300 max-w-[450px] text-xl">
+        <p className="mb-6 text-gray-300 max-w-[450px] text-sm md:text-md xl:text-xl">
           NICUB is an open-source community dedicated to empowering beginners
           and developers by equipping them with the skills they need to thrive
           in the tech industry.
