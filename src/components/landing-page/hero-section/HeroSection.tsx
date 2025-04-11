@@ -41,7 +41,7 @@ const HeroSection = () => {
         </div>
         <div className="flex items-center gap-x-2 text-gray-300">
           <Community className="text-[#01A7E1]" />
-          <p>10,000+ contributors worldwide making an impact</p>
+          <p>30+ contributors worldwide making an impact</p>
         </div>
 
         {/* <div className="border-[9px] border-gray-300 rounded-xl">

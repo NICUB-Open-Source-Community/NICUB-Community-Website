@@ -81,6 +81,13 @@ const AboutUs = () => {
         <h1 className="text-bold text-[40px] font-extrabold">Meet The Team</h1>
         <div className="grid grid-cols-3 py-[20px] gap-[50px]">
                   <div className="border-4 rounded-xl">
+                    <img src='https://www.portotheme.com/wordpress/porto/classic-one-page/wp-content/uploads/sites/85/2016/06/team-1-640x640.jpg'alt="team" className="rounded-t-lg min-w-[250px]"/>
+                    <div className="py-[30px] px-[15px]">
+                          <h1 className="text-bold text-[20px]">John Doe</h1>
+                          <p className="text-gray-700">Project Manager</p>
+                    </div>
+                  </div>
+                  {/* <div className="border-4 rounded-xl">
                     <img src='/elon-musk.jpeg'alt="team" className="rounded-t-lg min-w-[250px]"/>
                     <div className="py-[30px] px-[15px]">
                           <h1 className="text-bold text-[20px]">Elon Musk</h1>
@@ -107,14 +114,7 @@ const AboutUs = () => {
                           <h1 className="text-bold text-[20px]">Elon Musk</h1>
                           <p className="text-gray-700">Project Manager</p>
                     </div>
-                  </div>
-                  <div className="border-4 rounded-xl">
-                    <img src='/elon-musk.jpeg'alt="team" className="rounded-t-lg min-w-[250px]"/>
-                    <div className="py-[30px] px-[15px]">
-                          <h1 className="text-bold text-[20px]">Elon Musk</h1>
-                          <p className="text-gray-700">Project Manager</p>
-                    </div>
-                  </div>
+                  </div> */}
         </div>
       </div>
       <Faq />
