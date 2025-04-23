@@ -131,16 +131,14 @@ const Resources: React.FC = () => {
             </div>
             <h2 className="text-3xl font-bold text-gray-800">Open Source Resources</h2>
           </div>
-          <p className="text-gray-600 mb-10 max-w-3xl">
+          <p className="text-gray-600 mb-10 max-w-3xl font-normal">
             Essential resources for contributing to open source projects, understanding licenses, 
             and joining the global open source movement.
           </p>
           
-          <div className="space-y-10">
             {openSourceResources.map((section, index) => (
               <ResourceSection key={index} category={section.category} resources={section.resources} />
             ))}
-          </div>
         </section>
         
         {/* Developer Resources Section */}
@@ -158,11 +156,9 @@ const Resources: React.FC = () => {
             Find everything you need to get started with development.
           </p>
           
-          <div className="space-y-10">
             {developerResources.map((section, index) => (
               <ResourceSection key={index} category={section.category} resources={section.resources} />
             ))}
-          </div>
         </section>
         
         {/* Designer Resources Section */}
@@ -181,11 +177,9 @@ const Resources: React.FC = () => {
             across our open source ecosystem.
           </p>
           
-          <div className="space-y-10">
             {designerResources.map((section, index) => (
               <ResourceSection key={index} category={section.category} resources={section.resources} />
             ))}
-          </div>
         </section>
         
         {/* Technical Writer Resources Section */}
@@ -203,11 +197,9 @@ const Resources: React.FC = () => {
             documentation for our projects.
           </p>
           
-          <div className="space-y-10">
             {technicalWritingResources.map((section, index) => (
               <ResourceSection key={index} category={section.category} resources={section.resources} />
             ))}
-          </div>
         </section>
         
         {/* Footer CTA */}

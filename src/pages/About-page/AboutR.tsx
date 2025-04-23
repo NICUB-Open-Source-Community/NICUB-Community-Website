@@ -80,7 +80,7 @@ const AboutUs = () => {
       <div  className="mt-[70px] flex flex-col justify-center items-center justify-items-center">
         <h1 className="text-bold text-[40px] font-extrabold">Meet The Team</h1>
         <div className="grid grid-cols-3 py-[20px] gap-[50px]">
-                  <div className="border-4 rounded-xl">
+                  <div className="border-4 rounded-xl w-[300px]">
                     <img src='https://www.portotheme.com/wordpress/porto/classic-one-page/wp-content/uploads/sites/85/2016/06/team-1-640x640.jpg'alt="team" className="rounded-t-lg min-w-[250px]"/>
                     <div className="py-[30px] px-[15px]">
                           <h1 className="text-bold text-[20px]">John Doe</h1>
