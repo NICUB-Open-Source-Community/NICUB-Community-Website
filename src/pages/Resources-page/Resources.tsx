@@ -122,7 +122,7 @@ const Resources: React.FC = () => {
         </div>
         
         {/* Open Source Resources Section */}
-        <section id="open" className="mb-20 scroll-mt-20">
+        <section id="open" className="mb-20 scroll-mt-2   border-blue-600 border-4 rounded-lg p-6">
           <div className="flex items-center mb-6">
             <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
