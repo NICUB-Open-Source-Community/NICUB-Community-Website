@@ -13,16 +13,16 @@ const Navbar = () => {
   const hoverStyles =
     "hover:bg-gray-100 rounded-2xl py-1 sm:px-4  transition duration-100 cursor-pointer";
   return (
-    <section className="bg-white fixed top-0 w-full border-b z-30">
+    <section className="fixed top-0 z-30 w-full bg-white border-b">
 
-      <nav className="flex justify-between items-center gap-0 px-8  mx-auto py-4 block sm:hidden">
+      <nav className="items-center justify-between block gap-0 px-8 py-4 mx-auto sm:hidden">
 
         <Link to="/">
           <img src="/logo_v2.jpeg" alt="logo" className="w-[100px] h-[80px]" />
         </Link>
         <button className="block sm:hidden">☰ Menu</button>
       </nav>
-      <nav className="flex items-center gap-0 px-8 max-w-[1280px] mx-auto py-4 hidden sm:block">
+      <nav className="flex items-center gap-0 px-8 max-w-[1280px] mx-auto py-4  sm:block">
         <div className="flex items-center justify-between gap-1">
         <Link to="/" className="lg:pr-40 xl:pr-60">
           <img src="/logo_v2.jpeg" alt="logo" className="w-[100px] h-[80px]" />
